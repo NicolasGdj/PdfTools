@@ -1,0 +1,27 @@
+<meta charset="UTF-8" />
+<title><%= title %></title>
+<link href="/assets/css/materialize.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="description" content="" />
+<link href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css" rel="stylesheet" />
+<link href="/assets/css/jqvmap.css" rel="stylesheet" />
+<link href="/assets/css/flag-icon-css/css/flag-icon.min.css" rel="stylesheet" />
+<!-- Fullcalendar-->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.7.0/fullcalendar.min.css"
+  rel="stylesheet"
+/>
+<!-- Materialize-->
+<link href="/assets/css/admin-materialize.min.css" rel="stylesheet" />
+
+<!-- CSS from pages -->
+<% for (const url of css) { %>
+<link href="/assets/css/<%= url %>" rel="stylesheet" />
+<% } %>
+<!-- Material Icons-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" href="/assets/css/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
