@@ -1,1 +1,14 @@
-{}
+{
+  "actions.modifications": "Modifications",
+  "actions.modifications.split": "Split",
+  "actions.modifications.join": "Join",
+  "actions.modifications.reorder": "Reorder",
+  "upload.description": "Upload by dropping file here",
+  "pages.reorder.title": "Reorder PDF",
+  "pages.reorder.submit": "Submit",
+  "pages.join.title": "Join PDF",
+  "pages.join.submit": "Submit",
+  "pages.main.title": "PDF Tools",
+  "pages.split.title": "Split PDF",
+  "pages.split.submit": "Submit"
+}

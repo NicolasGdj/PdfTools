@@ -4,7 +4,7 @@ module.exports = [
     view: "index",
     page: "pages/main",
     data: {
-      title: "Home Page",
+      title: "pages.main.title",
       css: ["pages/main.css"],
       js: ["pages/main.js"],
     },
@@ -14,7 +14,7 @@ module.exports = [
     view: "index",
     page: "pages/join",
     data: {
-      title: "Join PDF",
+      title: "pages.join.title",
       css: ["components/upload.css", "components/sortable.css", "pages/join.css"],
       js: [
         "sessions.js",
@@ -30,7 +30,7 @@ module.exports = [
     view: "index",
     page: "pages/split",
     data: {
-      title: "Split PDF",
+      title: "pages.split.title",
       css: ["components/upload.css", "components/selectable.css", "components/sortable.css"],
       js: [
         "sessions.js",
@@ -46,7 +46,7 @@ module.exports = [
     view: "index",
     page: "pages/reorder",
     data: {
-      title: "Reorder PDF",
+      title: "pages.reorder.title",
       css: ["components/upload.css", "components/sortable.css"],
       js: ["sessions.js", "components/upload.js", "components/sortable.js", "pages/reorder.js"],
     },

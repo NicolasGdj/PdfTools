@@ -1,3 +1,14 @@
 {
-	"Title": "Title"
+  "actions.modifications": "Général",
+  "actions.modifications.split": "Diviser",
+  "actions.modifications.join": "Regrouper",
+  "actions.modifications.reorder": "Réorganiser",
+  "upload.description": "Déposez un fichier ici pour l'envoyer",
+  "pages.main.title": "PDF Tools",
+  "pages.reorder.title": "Réorganiser PDF",
+  "pages.reorder.submit": "Envoyer",
+  "pages.join.title": "Regrouper PDF",
+  "pages.join.submit": "Envoyer",
+  "pages.split.title": "Diviser PDF",
+  "pages.split.submit": "Envoyer"
 }

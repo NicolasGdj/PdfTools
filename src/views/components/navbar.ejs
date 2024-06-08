@@ -2,7 +2,7 @@
   <div class="navbar-fixed">
     <nav class="navbar white">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo grey-text text-darken-4"><%= title %></a>
+        <a href="#!" class="brand-logo grey-text text-darken-4"><%= __(title) %></a>
 
         <a href="#!" data-target="sidenav-left" class="sidenav-trigger left"
           ><i class="material-icons black-text">menu</i></a
@@ -18,19 +18,19 @@
       <ul class="collapsible collapsible-accordion">
         <li class="bold waves-effect">
           <a class="collapsible-header"
-            >Modifications<i class="material-icons chevron">chevron_left</i></a
+            ><%= __("actions.modifications") %><i class="material-icons chevron">chevron_left</i></a
           >
           <div class="collapsible-body">
             <ul>
               <li>
-                <a href="/join" class="waves-effect">Join<i class="material-icons">web</i></a>
+                <a href="/join" class="waves-effect"><%= __("actions.modifications.join") %><i class="material-icons">web</i></a>
               </li>
               <li>
-                <a href="/split" class="waves-effect">Split<i class="material-icons">list</i></a>
+                <a href="/split" class="waves-effect"><%= __("actions.modifications.split") %><i class="material-icons">list</i></a>
               </li>
               <li>
                 <a href="/reorder" class="waves-effect"
-                  >Reorder<i class="material-icons">dashboard</i></a
+                  ><%= __("actions.modifications.reorder") %><i class="material-icons">dashboard</i></a
                 >
               </li>
             </ul>
