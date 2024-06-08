@@ -1,0 +1,35 @@
+{
+  "name": "pdftools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasGdj/PdfTools.git"
+  },
+  "author": "NicolasGdj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasGdj/PdfTools/issues"
+  },
+  "homepage": "https://github.com/NicolasGdj/PdfTools#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "i18n": "^0.15.1",
+    "pdf-image": "^2.0.0",
+    "pdf-merger-js": "^5.1.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf2pic": "^3.1.1",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}

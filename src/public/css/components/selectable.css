@@ -1,0 +1,9 @@
+.selected,
+.not-selected {
+  transition: opacity 0.3s;
+  cursor: pointer !important;
+}
+
+.not-selected {
+  opacity: 0.3;
+}
